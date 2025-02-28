@@ -6,7 +6,7 @@ VALUES
 ('HR'),
 ('Engeneering'),
 ('Finance'),
-('Legal'),
+('Legal');
 
 INSERT INTO role (title, salary, department_id)
 VALUES 
@@ -17,7 +17,7 @@ VALUES
 ('Junior Engineer', 100000, 2),
 ('Accountant Manager', 120000, 3),
 ('Accountant', 100000, 3),
-('The Law Man', 7438055, 4),
+('The Law Man', 7438055, 4);
 
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES 
@@ -28,5 +28,5 @@ VALUES
 ('Bob', 'Robertson', 4, 4),
 ('Bobbert', 'Robertsonson', 5, 5),
 ('Polly', 'Correct', 1, null),
-('howard', 'Bethyname', 2, 1),
+('howard', 'Bethyname', 2, 1);
 

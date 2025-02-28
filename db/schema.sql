@@ -12,8 +12,8 @@ CREATE TABLE department (
 CREATE TABLE role (
   id SERIAL PRIMARY KEY,
   title VARCHAR(30) NOT NULL,
-  Salery DECIMAL NOT NULL,
-  department_id INTEGER NOT NULL
+  salary DECIMAL NOT NULL,
+  department_id INTEGER NOT NULL,
   FOREIGN KEY (department_id)
   REFERENCES department(id)
   ON DELETE SET NULL
