@@ -79,7 +79,7 @@ startPrompt();
 
 async function viewRoles() {
   try{
-    const query = 'SELECT r.id, r.title, r.salery, d.name AS department FROM role r JOIN department d ON r.department_id = d.id';
+    const query = 'SELECT r.id, r.title, r.salary, d.name AS department FROM role r JOIN department d ON r.department_id = d.id';
 
     const printTable = await pool.query(query);
 
